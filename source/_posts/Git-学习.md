@@ -88,13 +88,25 @@ tags:
 
 ## 五、fetch
 
-- 远程仓库跟新时，将这些更新取回到本地
+- 远程仓库跟新时，将这些更新取回到本地，不会自动merge
 
-    git fetch [远程仓库名]
+    git fetch [远程仓库名] 
 
 - 取回某个分支
   
     git fetch [远程仓库名] [分支名]
+
+- 从远程origin的master主分支下载最新的版本origin/master
+
+    git fetch origin master 
+
+- 比较本地master分支和origin/master分支的区别
+
+    git log -p master..origin/master
+
+- 最后合并
+ 
+    git merge origin/master
 
 ## 六、pull 
 
