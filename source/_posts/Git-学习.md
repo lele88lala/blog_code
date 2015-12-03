@@ -23,6 +23,10 @@ tags:
 
      git push origin master
 
+- 添加文件到缓存区和添加提交信息可以一起
+
+     git commit -a -m "first commit" 
+
 ## 二、克隆仓库
 
 - 克隆远程仓库
@@ -131,6 +135,7 @@ tags:
 - 如果当前只有一个分支
 
     git push 
+
   
 
 
