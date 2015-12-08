@@ -56,6 +56,29 @@ tags:
 
      git status
 
+- 忽略文件
+
+     cat  .gitignore [被忽略文件]
+
+     例如：
+     cat  .gitignore *.oa
+- 查看变化
+
+     git diff  查看暂存前的变化
+
+     git diff --cached 查看暂存起来的变化
+
+- 移除文件
+
+     git rm  已跟踪文件清单中移除
+    
+     git rm --cached 我们想把文件从 Git 仓库中删除,但仍然希望保留在当前工作目录中
+
+- 文件重命名
+
+     git mv [文件名] [新文件名]
+        
+
 ## 四、分支
 
 - 创建分支
