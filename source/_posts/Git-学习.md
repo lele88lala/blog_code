@@ -113,6 +113,10 @@ tags:
 
     git push --delete origin [分支名]
 
+- 取消暂存
+
+    git reset head [file]
+
 ## 五、fetch
 
 - 远程仓库跟新时，将这些更新取回到本地，不会自动merge
